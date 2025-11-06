@@ -1,2 +1,5 @@
-2025-11-06 11:18:24 | User: 366778837 | Ticker: LKOH | Source: moex | Amount: 50000.0 RUB | Model: ridge | RMSE: 1.8511 | Profit: 22418.02 RUB
-2025-11-06 11:37:25 | User: 366778837 | Ticker: SBER | Source: moex | Amount: 100000.0 RUB | Model: ridge | RMSE: 0.4497 | Profit: 27026.31 RUB
+2025-11-06 12:26:18 | User: 366778837 | Ticker: SBER | Source: moex | Amount: 20000.0 RUB | Model: ridge | RMSE: 4.1039 | Profit: 397.89 RUB
+2025-11-06 12:27:20 | User: 366778837 | Ticker: NVTK | Source: moex | Amount: 30000.0 RUB | Model: ridge | RMSE: 22.5470 | Profit: 118.91 RUB
+2025-11-06 12:28:49 | User: 366778837 | Ticker: SBER | Source: moex | Amount: 50000.0 RUB | Model: ridge | RMSE: 4.1039 | Profit: 995.22 RUB
+2025-11-06 12:29:54 | User: 366778837 | Ticker: GAZP | Source: moex | Amount: 1000000.0 RUB | Model: ridge | RMSE: 2.2687 | Profit: 71634.90 RUB
+2025-11-06 12:31:09 | User: 366778837 | Ticker: LKOH | Source: moex | Amount: 2000000.0 RUB | Model: ridge | RMSE: 102.2421 | Profit: 215348.82 RUB

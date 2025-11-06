@@ -1,0 +1,2 @@
+2025-11-06 11:18:24 | User: 366778837 | Ticker: LKOH | Source: moex | Amount: 50000.0 RUB | Model: ridge | RMSE: 1.8511 | Profit: 22418.02 RUB
+2025-11-06 11:37:25 | User: 366778837 | Ticker: SBER | Source: moex | Amount: 100000.0 RUB | Model: ridge | RMSE: 0.4497 | Profit: 27026.31 RUB

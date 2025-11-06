@@ -1,0 +1,12 @@
+aiogram
+pandas
+numpy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+python-dotenv
+optuna
+requests
+tensorflow
+aiofiles

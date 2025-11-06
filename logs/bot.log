@@ -1,428 +1,504 @@
-2025-11-06 11:16:09,115 - aiogram.event - INFO - Update id=727917236 is handled. Duration 304 ms by bot id=8322146210
-2025-11-06 11:16:13,329 - aiogram.event - INFO - Update id=727917237 is handled. Duration 134 ms by bot id=8322146210
-2025-11-06 11:16:15,486 - aiogram.event - INFO - Update id=727917238 is handled. Duration 122 ms by bot id=8322146210
-2025-11-06 11:16:25,403 - aiogram.event - INFO - Update id=727917239 is handled. Duration 359 ms by bot id=8322146210
-2025-11-06 11:16:31,085 - data_loader - INFO - 🚀 Загрузка данных для LKOH через MOEX...
-2025-11-06 11:16:31,087 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:16:31,087 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:16:31,088 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:16:31,759 - data_loader - INFO - ✅ Candles API: 308 записей
-2025-11-06 11:16:37,146 - data_loader - INFO - ✅ Historical API: 256 записей
-2025-11-06 11:16:37,153 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
-2025-11-06 11:16:37,154 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:16:37,159 - data_loader - INFO - ✅ MOEX: LKOH = 5452.00 RUB
-2025-11-06 11:16:37,267 - aiogram.event - INFO - Update id=727917240 is handled. Duration 6297 ms by bot id=8322146210
-2025-11-06 11:16:41,430 - aiogram.event - INFO - Update id=727917241 is handled. Duration 1 ms by bot id=8322146210
-2025-11-06 11:16:42,442 - data_loader - INFO - Создание признаков...
-2025-11-06 11:16:42,470 - data_loader - INFO - Признаки созданы: 563 записей
-2025-11-06 11:16:42,470 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:16:42,471 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
-2025-11-06 11:16:42,476 - model_trainer - INFO - Данные: 450 train, 113 test
-2025-11-06 11:16:43,121 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:16:43,355 - model_trainer - INFO - ✅ Random Forest: RMSE=275.61, MAPE=3.1%
-2025-11-06 11:16:43,962 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:16:43,972 - model_trainer - INFO - ✅ Ridge: RMSE=1.85, MAPE=0.0%
-2025-11-06 11:16:44,623 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:16:44,627 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
-2025-11-06 11:16:44,843 - model_trainer - INFO - ✅ ARIMA: RMSE=288.30, MAPE=3.7%
-2025-11-06 11:16:45,503 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:16:45,509 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
-2025-11-06 11:17:07,431 - model_trainer - INFO - ✅ LSTM: RMSE=199.21, MAPE=2.4%
-2025-11-06 11:17:08,337 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:17:08,337 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 275.61 MAPE: 3.1% MAE: 179.59
-2025-11-06 11:17:08,338 - model_trainer - INFO -    RIDGE           RMSE: 1.85 MAPE: 0.0% MAE: 1.42
-2025-11-06 11:17:08,338 - model_trainer - INFO -    ARIMA           RMSE: 288.30 MAPE: 3.7% MAE: 223.55
-2025-11-06 11:17:08,339 - model_trainer - INFO -    LSTM            RMSE: 199.21 MAPE: 2.4% MAE: 144.92
-2025-11-06 11:17:08,339 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=1.85)
-2025-11-06 11:17:09,045 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:17:09,860 - forecast_analyzer - INFO - 📊 Найдено минимумов: 5, максимумов: 4
-2025-11-06 11:17:09,861 - forecast_analyzer - INFO - 🎯 Найдено 4 торговых пар
-2025-11-06 11:17:09,862 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 89672.09 (+44.8%)
-2025-11-06 11:17:10,935 - utils - INFO - ✅ График успешно создан
-2025-11-06 11:17:29,955 - root - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:17:41,033 - aiogram.event - INFO - Update id=727917242 is handled. Duration 164 ms by bot id=8322146210
-2025-11-06 11:17:46,791 - data_loader - INFO - 🚀 Загрузка данных для LKOH через MOEX...
-2025-11-06 11:17:46,792 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:17:46,795 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:17:46,797 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:17:47,864 - data_loader - INFO - ✅ Candles API: 308 записей
-2025-11-06 11:17:49,615 - data_loader - INFO - ✅ Historical API: 256 записей
-2025-11-06 11:17:49,618 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
-2025-11-06 11:17:49,619 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:17:49,621 - data_loader - INFO - ✅ MOEX: LKOH = 5452.00 RUB
-2025-11-06 11:17:49,744 - aiogram.event - INFO - Update id=727917243 is handled. Duration 3181 ms by bot id=8322146210
-2025-11-06 11:17:52,265 - aiogram.event - INFO - Update id=727917244 is handled. Duration 1 ms by bot id=8322146210
-2025-11-06 11:17:53,577 - data_loader - INFO - Создание признаков...
-2025-11-06 11:17:53,599 - data_loader - INFO - Признаки созданы: 563 записей
-2025-11-06 11:17:53,600 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:17:53,601 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
-2025-11-06 11:17:53,609 - model_trainer - INFO - Данные: 450 train, 113 test
-2025-11-06 11:17:54,260 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:17:54,509 - model_trainer - INFO - ✅ Random Forest: RMSE=275.61, MAPE=3.1%
-2025-11-06 11:17:55,278 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:17:55,291 - model_trainer - INFO - ✅ Ridge: RMSE=1.85, MAPE=0.0%
-2025-11-06 11:17:56,011 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:17:56,012 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
-2025-11-06 11:17:56,188 - model_trainer - INFO - ✅ ARIMA: RMSE=288.30, MAPE=3.7%
-2025-11-06 11:17:56,861 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:17:56,866 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
-2025-11-06 11:18:19,587 - tensorflow - WARNING - 5 out of the last 9 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000159E60C2980> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
-2025-11-06 11:18:19,885 - tensorflow - WARNING - 6 out of the last 12 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000159E60C2980> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
-2025-11-06 11:18:19,913 - model_trainer - INFO - ✅ LSTM: RMSE=202.80, MAPE=2.5%
-2025-11-06 11:18:20,807 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:18:20,809 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 275.61 MAPE: 3.1% MAE: 179.59
-2025-11-06 11:18:20,812 - model_trainer - INFO -    RIDGE           RMSE: 1.85 MAPE: 0.0% MAE: 1.42
-2025-11-06 11:18:20,814 - model_trainer - INFO -    ARIMA           RMSE: 288.30 MAPE: 3.7% MAE: 223.55
-2025-11-06 11:18:20,816 - model_trainer - INFO -    LSTM            RMSE: 202.80 MAPE: 2.5% MAE: 148.55
-2025-11-06 11:18:20,817 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=1.85)
-2025-11-06 11:18:21,522 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:18:22,392 - forecast_analyzer - INFO - 📊 Найдено минимумов: 5, максимумов: 4
-2025-11-06 11:18:22,394 - forecast_analyzer - INFO - 🎯 Найдено 4 торговых пар
-2025-11-06 11:18:22,396 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 22418.02 (+44.8%)
-2025-11-06 11:18:23,469 - utils - INFO - ✅ График успешно создан
-2025-11-06 11:18:24,203 - utils - INFO - Запрос от пользователя 366778837 залогирован
-2025-11-06 11:18:48,008 - aiogram.event - INFO - Update id=727917245 is handled. Duration 475 ms by bot id=8322146210
-2025-11-06 11:18:50,875 - data_loader - INFO - 🚀 Загрузка данных для VTBR через MOEX...
-2025-11-06 11:18:50,876 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:18:50,878 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:18:50,879 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:18:51,588 - data_loader - INFO - ✅ Candles API: 308 записей
-2025-11-06 11:18:54,467 - data_loader - INFO - ✅ Historical API: 252 записей
-2025-11-06 11:18:54,474 - data_loader - INFO - 🎯 Объединено: 559 уникальных дат
-2025-11-06 11:18:54,475 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:18:54,479 - data_loader - INFO - ✅ MOEX: VTBR = 69.50 RUB
-2025-11-06 11:18:54,605 - aiogram.event - INFO - Update id=727917246 is handled. Duration 3869 ms by bot id=8322146210
-2025-11-06 11:19:00,763 - aiogram.event - INFO - Update id=727917247 is handled. Duration 2 ms by bot id=8322146210
-2025-11-06 11:19:01,821 - data_loader - INFO - Создание признаков...
-2025-11-06 11:19:01,849 - data_loader - INFO - Признаки созданы: 559 записей
-2025-11-06 11:19:01,850 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:19:01,851 - model_trainer - INFO - Дата разделения: 2025-07-08 00:00:00
-2025-11-06 11:19:01,856 - model_trainer - INFO - Данные: 447 train, 112 test
-2025-11-06 11:19:02,490 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:19:02,727 - model_trainer - INFO - ✅ Random Forest: RMSE=2.48, MAPE=1.9%
-2025-11-06 11:19:03,357 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:19:03,368 - model_trainer - INFO - ✅ Ridge: RMSE=0.01, MAPE=0.0%
-2025-11-06 11:19:03,990 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:19:03,994 - model_trainer - INFO - 📊 ARIMA: 447 train, 112 test
-2025-11-06 11:19:04,200 - model_trainer - INFO - ✅ ARIMA: RMSE=22.82, MAPE=30.3%
-2025-11-06 11:19:04,835 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:19:04,840 - model_trainer - INFO - 📊 LSTM: 417 train, 112 test
-2025-11-06 11:19:26,751 - model_trainer - INFO - ✅ LSTM: RMSE=3.21, MAPE=2.8%
-2025-11-06 11:19:27,662 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:19:27,663 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 2.48 MAPE: 1.9% MAE: 1.41
-2025-11-06 11:19:27,664 - model_trainer - INFO -    RIDGE           RMSE: 0.01 MAPE: 0.0% MAE: 0.01
-2025-11-06 11:19:27,664 - model_trainer - INFO -    ARIMA           RMSE: 22.82 MAPE: 30.3% MAE: 22.02
-2025-11-06 11:19:27,665 - model_trainer - INFO -    LSTM            RMSE: 3.21 MAPE: 2.8% MAE: 2.16
-2025-11-06 11:19:27,665 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=0.01)
-2025-11-06 11:19:28,332 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:19:29,044 - forecast_analyzer - INFO - 📊 Найдено минимумов: 4, максимумов: 4
-2025-11-06 11:19:29,045 - forecast_analyzer - INFO - 🎯 Найдено 4 торговых пар
-2025-11-06 11:19:29,046 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 3751.97 (+37.5%)
-2025-11-06 11:19:30,088 - utils - INFO - ✅ График успешно создан
-2025-11-06 11:19:49,114 - root - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:21:53,004 - aiogram.dispatcher - INFO - Polling stopped
-2025-11-06 11:21:53,271 - aiogram.dispatcher - INFO - Polling stopped for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
-2025-11-06 11:22:08,383 - root - INFO - Бот запущен
-2025-11-06 11:22:08,384 - aiogram.dispatcher - INFO - Start polling
-2025-11-06 11:22:09,756 - aiogram.dispatcher - INFO - Run polling for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
-2025-11-06 11:22:16,632 - aiogram.event - INFO - Update id=727917248 is handled. Duration 396 ms by bot id=8322146210
-2025-11-06 11:22:22,295 - data_loader - INFO - 🚀 Загрузка данных для VTBR через MOEX...
-2025-11-06 11:22:22,300 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:22:22,302 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:22:22,309 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:22:23,115 - data_loader - INFO - ✅ Candles API: 308 записей
-2025-11-06 11:22:25,011 - data_loader - INFO - ✅ Historical API: 252 записей
-2025-11-06 11:22:25,018 - data_loader - INFO - 🎯 Объединено: 559 уникальных дат
-2025-11-06 11:22:25,019 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:22:25,026 - data_loader - INFO - ✅ MOEX: VTBR = 69.53 RUB
-2025-11-06 11:22:25,145 - aiogram.event - INFO - Update id=727917249 is handled. Duration 3018 ms by bot id=8322146210
-2025-11-06 11:22:26,281 - aiogram.event - INFO - Update id=727917250 is handled. Duration 2 ms by bot id=8322146210
-2025-11-06 11:22:27,174 - data_loader - INFO - Создание признаков...
-2025-11-06 11:22:27,202 - data_loader - INFO - Признаки созданы: 559 записей
-2025-11-06 11:22:27,203 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:22:27,204 - model_trainer - INFO - Дата разделения: 2025-07-08 00:00:00
-2025-11-06 11:22:27,218 - model_trainer - INFO - Данные: 447 train, 112 test
-2025-11-06 11:22:27,968 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:22:28,220 - model_trainer - INFO - ✅ Random Forest: RMSE=2.48, MAPE=1.9%
-2025-11-06 11:22:28,851 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:22:28,864 - model_trainer - INFO - ✅ Ridge: RMSE=0.01, MAPE=0.0%
-2025-11-06 11:22:29,513 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:22:29,519 - model_trainer - INFO - 📊 ARIMA: 447 train, 112 test
-2025-11-06 11:22:29,728 - model_trainer - INFO - ✅ ARIMA: RMSE=22.82, MAPE=30.3%
-2025-11-06 11:22:30,359 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:22:30,367 - model_trainer - INFO - 📊 LSTM: 417 train, 112 test
-2025-11-06 11:22:53,226 - model_trainer - INFO - ✅ LSTM: RMSE=3.08, MAPE=2.5%
-2025-11-06 11:22:54,105 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:22:54,107 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 2.48 MAPE: 1.9% MAE: 1.41
-2025-11-06 11:22:54,108 - model_trainer - INFO -    RIDGE           RMSE: 0.01 MAPE: 0.0% MAE: 0.01
-2025-11-06 11:22:54,109 - model_trainer - INFO -    ARIMA           RMSE: 22.82 MAPE: 30.3% MAE: 22.02
-2025-11-06 11:22:54,110 - model_trainer - INFO -    LSTM            RMSE: 3.08 MAPE: 2.5% MAE: 1.90
-2025-11-06 11:22:54,111 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=0.01)
-2025-11-06 11:22:54,771 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:22:55,538 - forecast_analyzer - INFO - 📊 Найдено минимумов: 4, максимумов: 4
-2025-11-06 11:22:55,539 - forecast_analyzer - INFO - 🎯 Найдено 4 торговых пар
-2025-11-06 11:22:55,541 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 3832.67 (+38.3%)
-2025-11-06 11:22:56,646 - utils - INFO - График создан: 27959 байт
-2025-11-06 11:23:15,668 - root - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:25:35,720 - aiogram.dispatcher - INFO - Polling stopped
-2025-11-06 11:25:35,977 - aiogram.dispatcher - INFO - Polling stopped for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
-2025-11-06 11:25:48,770 - root - INFO - Бот запущен
-2025-11-06 11:25:48,770 - aiogram.dispatcher - INFO - Start polling
-2025-11-06 11:25:49,078 - aiogram.dispatcher - INFO - Run polling for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
-2025-11-06 11:25:53,966 - aiogram.event - INFO - Update id=727917251 is handled. Duration 344 ms by bot id=8322146210
-2025-11-06 11:26:00,193 - data_loader - INFO - 🚀 Загрузка данных для VTBR через MOEX...
-2025-11-06 11:26:00,194 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:26:00,195 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:26:00,197 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:26:01,461 - data_loader - INFO - ✅ Candles API: 308 записей
-2025-11-06 11:26:03,176 - data_loader - INFO - ✅ Historical API: 252 записей
-2025-11-06 11:26:03,179 - data_loader - INFO - 🎯 Объединено: 559 уникальных дат
-2025-11-06 11:26:03,180 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:26:03,182 - data_loader - INFO - ✅ MOEX: VTBR = 69.43 RUB
-2025-11-06 11:26:03,291 - aiogram.event - INFO - Update id=727917252 is handled. Duration 3346 ms by bot id=8322146210
-2025-11-06 11:26:04,265 - aiogram.event - INFO - Update id=727917253 is handled. Duration 0 ms by bot id=8322146210
-2025-11-06 11:26:04,970 - data_loader - INFO - Создание признаков...
-2025-11-06 11:26:05,006 - data_loader - INFO - Признаки созданы: 559 записей
-2025-11-06 11:26:05,006 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:26:05,007 - model_trainer - INFO - Дата разделения: 2025-07-08 00:00:00
-2025-11-06 11:26:05,012 - model_trainer - INFO - Данные: 447 train, 112 test
-2025-11-06 11:26:05,676 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:26:05,943 - model_trainer - INFO - ✅ Random Forest: RMSE=2.48, MAPE=1.9%
-2025-11-06 11:26:06,613 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:26:06,624 - model_trainer - INFO - ✅ Ridge: RMSE=0.01, MAPE=0.0%
-2025-11-06 11:26:07,256 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:26:07,261 - model_trainer - INFO - 📊 ARIMA: 447 train, 112 test
-2025-11-06 11:26:07,465 - model_trainer - INFO - ✅ ARIMA: RMSE=22.82, MAPE=30.3%
-2025-11-06 11:26:08,078 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:26:08,085 - model_trainer - INFO - 📊 LSTM: 417 train, 112 test
-2025-11-06 11:26:30,791 - model_trainer - INFO - ✅ LSTM: RMSE=4.81, MAPE=5.3%
-2025-11-06 11:26:31,726 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:26:31,728 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 2.48 MAPE: 1.9% MAE: 1.41
-2025-11-06 11:26:31,729 - model_trainer - INFO -    RIDGE           RMSE: 0.01 MAPE: 0.0% MAE: 0.01
-2025-11-06 11:26:31,730 - model_trainer - INFO -    ARIMA           RMSE: 22.82 MAPE: 30.3% MAE: 22.02
-2025-11-06 11:26:31,731 - model_trainer - INFO -    LSTM            RMSE: 4.81 MAPE: 5.3% MAE: 3.91
-2025-11-06 11:26:31,733 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=0.01)
-2025-11-06 11:26:32,467 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:26:33,149 - forecast_analyzer - INFO - 📊 Найдено минимумов: 4, максимумов: 4
-2025-11-06 11:26:33,151 - forecast_analyzer - INFO - 🎯 Найдено 4 торговых пар
-2025-11-06 11:26:33,152 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 3593.75 (+35.9%)
-2025-11-06 11:26:34,169 - utils - INFO - График создан: 27926 байт
-2025-11-06 11:26:53,195 - root - ERROR - Ошибка анализа: 'StockForecastBot' object has no attribute 'logger'
-2025-11-06 11:28:20,015 - aiogram.dispatcher - INFO - Polling stopped
-2025-11-06 11:28:20,275 - aiogram.dispatcher - INFO - Polling stopped for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
-2025-11-06 11:28:32,992 - root - INFO - Бот запущен
-2025-11-06 11:28:32,992 - aiogram.dispatcher - INFO - Start polling
-2025-11-06 11:28:33,312 - aiogram.dispatcher - INFO - Run polling for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
-2025-11-06 11:28:43,541 - aiogram.event - INFO - Update id=727917254 is handled. Duration 301 ms by bot id=8322146210
-2025-11-06 11:28:45,608 - data_loader - INFO - 🚀 Загрузка данных для VTBR через MOEX...
-2025-11-06 11:28:45,609 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:28:45,609 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:28:45,609 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:28:46,268 - data_loader - INFO - ✅ Candles API: 308 записей
-2025-11-06 11:28:48,016 - data_loader - INFO - ✅ Historical API: 252 записей
-2025-11-06 11:28:48,020 - data_loader - INFO - 🎯 Объединено: 559 уникальных дат
-2025-11-06 11:28:48,021 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:28:48,024 - data_loader - INFO - ✅ MOEX: VTBR = 69.54 RUB
-2025-11-06 11:28:48,151 - aiogram.event - INFO - Update id=727917255 is handled. Duration 2645 ms by bot id=8322146210
-2025-11-06 11:28:51,001 - aiogram.event - INFO - Update id=727917256 is handled. Duration 2 ms by bot id=8322146210
-2025-11-06 11:28:51,746 - data_loader - INFO - Создание признаков...
-2025-11-06 11:28:51,777 - data_loader - INFO - Признаки созданы: 559 записей
-2025-11-06 11:28:51,778 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:28:51,779 - model_trainer - INFO - Дата разделения: 2025-07-08 00:00:00
-2025-11-06 11:28:51,786 - model_trainer - INFO - Данные: 447 train, 112 test
-2025-11-06 11:28:52,424 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:28:52,676 - model_trainer - INFO - ✅ Random Forest: RMSE=2.48, MAPE=1.9%
-2025-11-06 11:28:53,295 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:28:53,308 - model_trainer - INFO - ✅ Ridge: RMSE=0.01, MAPE=0.0%
-2025-11-06 11:28:53,944 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:28:53,947 - model_trainer - INFO - 📊 ARIMA: 447 train, 112 test
-2025-11-06 11:28:54,140 - model_trainer - INFO - ✅ ARIMA: RMSE=22.82, MAPE=30.3%
-2025-11-06 11:28:54,754 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:28:54,768 - model_trainer - INFO - 📊 LSTM: 417 train, 112 test
-2025-11-06 11:29:18,057 - model_trainer - INFO - ✅ LSTM: RMSE=4.37, MAPE=4.8%
-2025-11-06 11:29:18,944 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:29:18,945 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 2.48 MAPE: 1.9% MAE: 1.41
-2025-11-06 11:29:18,945 - model_trainer - INFO -    RIDGE           RMSE: 0.01 MAPE: 0.0% MAE: 0.01
-2025-11-06 11:29:18,946 - model_trainer - INFO -    ARIMA           RMSE: 22.82 MAPE: 30.3% MAE: 22.02
-2025-11-06 11:29:18,947 - model_trainer - INFO -    LSTM            RMSE: 4.37 MAPE: 4.8% MAE: 3.47
-2025-11-06 11:29:18,948 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=0.01)
-2025-11-06 11:29:19,604 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:29:20,359 - forecast_analyzer - INFO - 📊 Найдено минимумов: 4, максимумов: 4
-2025-11-06 11:29:20,360 - forecast_analyzer - INFO - 🎯 Найдено 4 торговых пар
-2025-11-06 11:29:20,360 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 38603.49 (+38.6%)
-2025-11-06 11:29:21,378 - utils - INFO - График создан: 27965 байт
-2025-11-06 11:29:40,416 - __main__ - ERROR - Ошибка отправки результатов: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:30:00,766 - aiogram.event - INFO - Update id=727917257 is handled. Duration 288 ms by bot id=8322146210
-2025-11-06 11:30:05,825 - data_loader - INFO - 🚀 Загрузка данных для SBER через MOEX...
-2025-11-06 11:30:05,825 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:30:05,826 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:30:05,826 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:30:06,612 - data_loader - INFO - ✅ Candles API: 308 записей
-2025-11-06 11:30:08,639 - data_loader - INFO - ✅ Historical API: 256 записей
-2025-11-06 11:30:08,644 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
-2025-11-06 11:30:08,645 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:30:08,649 - data_loader - INFO - ✅ MOEX: SBER = 295.15 RUB
-2025-11-06 11:30:08,777 - aiogram.event - INFO - Update id=727917258 is handled. Duration 3052 ms by bot id=8322146210
-2025-11-06 11:30:11,937 - aiogram.event - INFO - Update id=727917259 is handled. Duration 2 ms by bot id=8322146210
-2025-11-06 11:30:12,663 - data_loader - INFO - Создание признаков...
-2025-11-06 11:30:12,678 - data_loader - INFO - Признаки созданы: 563 записей
-2025-11-06 11:30:12,679 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:30:12,680 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
-2025-11-06 11:30:12,689 - model_trainer - INFO - Данные: 450 train, 113 test
-2025-11-06 11:30:13,303 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:30:13,556 - model_trainer - INFO - ✅ Random Forest: RMSE=4.03, MAPE=0.9%
-2025-11-06 11:30:14,192 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:30:14,200 - model_trainer - INFO - ✅ Ridge: RMSE=0.45, MAPE=0.1%
-2025-11-06 11:30:14,841 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:30:14,842 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
-2025-11-06 11:30:15,038 - model_trainer - INFO - ✅ ARIMA: RMSE=19.48, MAPE=5.5%
-2025-11-06 11:30:15,673 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:30:15,682 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
-2025-11-06 11:30:38,658 - model_trainer - INFO - ✅ LSTM: RMSE=5.17, MAPE=1.3%
-2025-11-06 11:30:39,541 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:30:39,543 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 4.03 MAPE: 0.9% MAE: 2.72
-2025-11-06 11:30:39,544 - model_trainer - INFO -    RIDGE           RMSE: 0.45 MAPE: 0.1% MAE: 0.35
-2025-11-06 11:30:39,545 - model_trainer - INFO -    ARIMA           RMSE: 19.48 MAPE: 5.5% MAE: 16.14
-2025-11-06 11:30:39,546 - model_trainer - INFO -    LSTM            RMSE: 5.17 MAPE: 1.3% MAE: 4.01
-2025-11-06 11:30:39,548 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=0.45)
-2025-11-06 11:30:40,177 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:30:40,891 - forecast_analyzer - INFO - 📊 Найдено минимумов: 4, максимумов: 4
-2025-11-06 11:30:40,893 - forecast_analyzer - INFO - 🎯 Найдено 4 торговых пар
-2025-11-06 11:30:40,894 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 26755.03 (+26.8%)
-2025-11-06 11:30:41,852 - utils - INFO - График создан: 40023 байт
-2025-11-06 11:31:00,891 - __main__ - ERROR - Ошибка отправки результатов: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:31:20,662 - __main__ - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:31:20,992 - root - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:33:29,114 - aiogram.dispatcher - INFO - Polling stopped
-2025-11-06 11:33:29,376 - aiogram.dispatcher - INFO - Polling stopped for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
-2025-11-06 11:33:42,057 - root - INFO - Бот запущен
-2025-11-06 11:33:42,058 - aiogram.dispatcher - INFO - Start polling
-2025-11-06 11:33:42,437 - aiogram.dispatcher - INFO - Run polling for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
-2025-11-06 11:33:51,823 - aiogram.event - INFO - Update id=727917260 is handled. Duration 308 ms by bot id=8322146210
-2025-11-06 11:33:56,813 - data_loader - INFO - 🚀 Загрузка данных для SBER через MOEX...
-2025-11-06 11:33:56,813 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:33:56,816 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:33:56,818 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:33:57,481 - data_loader - INFO - ✅ Candles API: 308 записей
-2025-11-06 11:33:59,115 - data_loader - INFO - ✅ Historical API: 256 записей
-2025-11-06 11:33:59,124 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
-2025-11-06 11:33:59,125 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:33:59,129 - data_loader - INFO - ✅ MOEX: SBER = 295.11 RUB
-2025-11-06 11:33:59,243 - aiogram.event - INFO - Update id=727917261 is handled. Duration 2594 ms by bot id=8322146210
-2025-11-06 11:34:02,036 - aiogram.event - INFO - Update id=727917262 is handled. Duration 1 ms by bot id=8322146210
-2025-11-06 11:34:02,783 - data_loader - INFO - Создание признаков...
-2025-11-06 11:34:02,814 - data_loader - INFO - Признаки созданы: 563 записей
-2025-11-06 11:34:02,815 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:34:02,816 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
-2025-11-06 11:34:02,822 - model_trainer - INFO - Данные: 450 train, 113 test
-2025-11-06 11:34:03,491 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:34:03,743 - model_trainer - INFO - ✅ Random Forest: RMSE=4.03, MAPE=0.9%
-2025-11-06 11:34:04,523 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:34:04,534 - model_trainer - INFO - ✅ Ridge: RMSE=0.45, MAPE=0.1%
-2025-11-06 11:34:05,224 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:34:05,227 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
-2025-11-06 11:34:05,440 - model_trainer - INFO - ✅ ARIMA: RMSE=19.48, MAPE=5.5%
-2025-11-06 11:34:06,090 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:34:06,100 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
-2025-11-06 11:34:28,666 - model_trainer - INFO - ✅ LSTM: RMSE=5.26, MAPE=1.3%
-2025-11-06 11:34:29,513 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:34:29,515 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 4.03 MAPE: 0.9% MAE: 2.72
-2025-11-06 11:34:29,516 - model_trainer - INFO -    RIDGE           RMSE: 0.45 MAPE: 0.1% MAE: 0.35
-2025-11-06 11:34:29,517 - model_trainer - INFO -    ARIMA           RMSE: 19.48 MAPE: 5.5% MAE: 16.14
-2025-11-06 11:34:29,519 - model_trainer - INFO -    LSTM            RMSE: 5.26 MAPE: 1.3% MAE: 3.91
-2025-11-06 11:34:29,520 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=0.45)
-2025-11-06 11:34:30,151 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:34:30,852 - forecast_analyzer - INFO - 📊 Найдено минимумов: 4, максимумов: 4
-2025-11-06 11:34:30,854 - forecast_analyzer - INFO - 🎯 Найдено 4 торговых пар
-2025-11-06 11:34:30,855 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 268187.87 (+26.8%)
-2025-11-06 11:34:31,909 - utils - INFO - График создан: 21622 байт
-2025-11-06 11:34:31,910 - utils - INFO - График слишком большой, создаем упрощенный вариант
-2025-11-06 11:34:32,097 - utils - INFO - Упрощенный график: 9031 байт
-2025-11-06 11:34:51,326 - __main__ - ERROR - Ошибка отправки результатов: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:35:11,186 - __main__ - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:35:11,486 - root - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:36:44,153 - aiogram.event - INFO - Update id=727917263 is handled. Duration 350 ms by bot id=8322146210
-2025-11-06 11:36:49,573 - data_loader - INFO - 🚀 Загрузка данных для SBER через MOEX...
-2025-11-06 11:36:49,574 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:36:49,575 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:36:49,577 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:36:51,360 - data_loader - INFO - ✅ Candles API: 308 записей
-2025-11-06 11:36:54,268 - data_loader - INFO - ✅ Historical API: 256 записей
-2025-11-06 11:36:54,272 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
-2025-11-06 11:36:54,273 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:36:54,278 - data_loader - INFO - ✅ MOEX: SBER = 294.98 RUB
-2025-11-06 11:36:54,417 - aiogram.event - INFO - Update id=727917264 is handled. Duration 4950 ms by bot id=8322146210
-2025-11-06 11:36:56,232 - aiogram.event - INFO - Update id=727917265 is handled. Duration 0 ms by bot id=8322146210
-2025-11-06 11:36:57,049 - data_loader - INFO - Создание признаков...
-2025-11-06 11:36:57,058 - data_loader - INFO - Признаки созданы: 563 записей
-2025-11-06 11:36:57,058 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:36:57,059 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
-2025-11-06 11:36:57,061 - model_trainer - INFO - Данные: 450 train, 113 test
-2025-11-06 11:36:57,705 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:36:57,971 - model_trainer - INFO - ✅ Random Forest: RMSE=4.04, MAPE=0.9%
-2025-11-06 11:36:58,605 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:36:58,613 - model_trainer - INFO - ✅ Ridge: RMSE=0.45, MAPE=0.1%
-2025-11-06 11:36:59,418 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:36:59,421 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
-2025-11-06 11:36:59,590 - model_trainer - INFO - ✅ ARIMA: RMSE=19.48, MAPE=5.5%
-2025-11-06 11:37:00,308 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:37:00,313 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
-2025-11-06 11:37:21,657 - model_trainer - INFO - ✅ LSTM: RMSE=6.31, MAPE=1.6%
-2025-11-06 11:37:22,489 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:37:22,489 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 4.04 MAPE: 0.9% MAE: 2.72
-2025-11-06 11:37:22,490 - model_trainer - INFO -    RIDGE           RMSE: 0.45 MAPE: 0.1% MAE: 0.35
-2025-11-06 11:37:22,490 - model_trainer - INFO -    ARIMA           RMSE: 19.48 MAPE: 5.5% MAE: 16.14
-2025-11-06 11:37:22,490 - model_trainer - INFO -    LSTM            RMSE: 6.31 MAPE: 1.6% MAE: 4.94
-2025-11-06 11:37:22,490 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=0.45)
-2025-11-06 11:37:23,130 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:37:23,848 - forecast_analyzer - INFO - 📊 Найдено минимумов: 4, максимумов: 4
-2025-11-06 11:37:23,849 - forecast_analyzer - INFO - 🎯 Найдено 4 торговых пар
-2025-11-06 11:37:23,849 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 27026.31 (+27.0%)
-2025-11-06 11:37:24,789 - utils - INFO - График создан: 21646 байт
-2025-11-06 11:37:24,789 - utils - INFO - График слишком большой, создаем упрощенный вариант
-2025-11-06 11:37:24,958 - utils - INFO - Упрощенный график: 8999 байт
-2025-11-06 11:37:25,345 - utils - INFO - Запрос от пользователя 366778837 залогирован
-2025-11-06 11:38:05,493 - aiogram.event - INFO - Update id=727917266 is handled. Duration 310 ms by bot id=8322146210
-2025-11-06 11:38:11,290 - data_loader - INFO - 🚀 Загрузка данных для NVTK через MOEX...
-2025-11-06 11:38:11,291 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
-2025-11-06 11:38:11,292 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
-2025-11-06 11:38:11,294 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
-2025-11-06 11:38:13,105 - data_loader - INFO - ✅ Candles API: 304 записей
-2025-11-06 11:38:16,030 - data_loader - INFO - ✅ Historical API: 256 записей
-2025-11-06 11:38:16,036 - data_loader - INFO - 🎯 Объединено: 559 уникальных дат
-2025-11-06 11:38:16,038 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
-2025-11-06 11:38:16,043 - data_loader - INFO - ✅ MOEX: NVTK = 1051.20 RUB
-2025-11-06 11:38:16,162 - aiogram.event - INFO - Update id=727917267 is handled. Duration 5098 ms by bot id=8322146210
-2025-11-06 11:38:17,254 - aiogram.event - INFO - Update id=727917268 is handled. Duration 1 ms by bot id=8322146210
-2025-11-06 11:38:17,992 - data_loader - INFO - Создание признаков...
-2025-11-06 11:38:18,002 - data_loader - INFO - Признаки созданы: 559 записей
-2025-11-06 11:38:18,002 - model_trainer - INFO - Унифицированная подготовка данных...
-2025-11-06 11:38:18,002 - model_trainer - INFO - Дата разделения: 2025-07-06 00:00:00
-2025-11-06 11:38:18,005 - model_trainer - INFO - Данные: 447 train, 112 test
-2025-11-06 11:38:18,648 - model_trainer - INFO - 🎯 Обучение Random Forest...
-2025-11-06 11:38:18,860 - model_trainer - INFO - ✅ Random Forest: RMSE=23.89, MAPE=1.6%
-2025-11-06 11:38:19,563 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
-2025-11-06 11:38:19,572 - model_trainer - INFO - ✅ Ridge: RMSE=1.15, MAPE=0.1%
-2025-11-06 11:38:20,205 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
-2025-11-06 11:38:20,207 - model_trainer - INFO - 📊 ARIMA: 447 train, 112 test
-2025-11-06 11:38:20,355 - model_trainer - INFO - ✅ ARIMA: RMSE=109.25, MAPE=7.1%
-2025-11-06 11:38:20,969 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
-2025-11-06 11:38:20,972 - model_trainer - INFO - 📊 LSTM: 417 train, 112 test
-2025-11-06 11:38:42,369 - tensorflow - WARNING - 5 out of the last 9 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002931449EFC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
-2025-11-06 11:38:42,657 - tensorflow - WARNING - 6 out of the last 12 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002931449EFC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
-2025-11-06 11:38:42,685 - model_trainer - INFO - ✅ LSTM: RMSE=44.83, MAPE=3.0%
-2025-11-06 11:38:43,497 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
-2025-11-06 11:38:43,498 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 23.89 MAPE: 1.6% MAE: 17.66
-2025-11-06 11:38:43,499 - model_trainer - INFO -    RIDGE           RMSE: 1.15 MAPE: 0.1% MAE: 0.95
-2025-11-06 11:38:43,500 - model_trainer - INFO -    ARIMA           RMSE: 109.25 MAPE: 7.1% MAE: 84.00
-2025-11-06 11:38:43,502 - model_trainer - INFO -    LSTM            RMSE: 44.83 MAPE: 3.0% MAE: 34.18
-2025-11-06 11:38:43,503 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=1.15)
-2025-11-06 11:38:44,122 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
-2025-11-06 11:38:44,824 - forecast_analyzer - INFO - 📊 Найдено минимумов: 4, максимумов: 5
-2025-11-06 11:38:44,825 - forecast_analyzer - INFO - 🔥 Первый экстремум - максимум, добавляем текущую цену как минимум
-2025-11-06 11:38:44,826 - forecast_analyzer - INFO - 🎯 Найдено 5 торговых пар
-2025-11-06 11:38:44,826 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 64435.80 (+12.9%)
-2025-11-06 11:38:45,743 - utils - INFO - График создан: 19102 байт
-2025-11-06 11:39:04,784 - __main__ - ERROR - Ошибка отправки результатов: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:39:24,453 - __main__ - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
-2025-11-06 11:39:24,763 - root - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-11-06 12:05:28,408 - aiogram.event - INFO - Update id=727917280 is handled. Duration 356 ms by bot id=8322146210
+2025-11-06 12:05:31,740 - aiogram.event - INFO - Update id=727917281 is handled. Duration 123 ms by bot id=8322146210
+2025-11-06 12:05:31,869 - aiogram.event - INFO - Update id=727917278 is not handled. Duration 19337 ms by bot id=8322146210
+2025-11-06 12:05:31,872 - aiogram.event - ERROR - Cause exception while process update id=727917278 by bot id=8322146210
+TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 804, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 463, in finish_socket_func
+    return ov.getresult()
+           ~~~~~~~~~~~~^^
+OSError: [WinError 121] Превышен таймаут семафора
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 181, in make_request
+    async with session.post(
+               ~~~~~~~~~~~~^
+        url, data=form, timeout=self.timeout if timeout is None else timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as resp:
+    ^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiohttp\client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiohttp\client.py", line 608, in _request
+    await resp.start(conn)
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiohttp\client_reqrep.py", line 976, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiohttp\streams.py", line 640, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 121] Превышен таймаут семафора
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\bot.py", line 47, in start_command
+    await message.answer(welcome_text)
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 188, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-11-06 12:05:34,525 - aiogram.event - INFO - Update id=727917282 is handled. Duration 209 ms by bot id=8322146210
+2025-11-06 12:05:38,124 - aiogram.event - INFO - Update id=727917283 is handled. Duration 228 ms by bot id=8322146210
+2025-11-06 12:05:38,305 - aiogram.event - INFO - Update id=727917279 is not handled. Duration 19373 ms by bot id=8322146210
+2025-11-06 12:05:38,308 - aiogram.event - ERROR - Cause exception while process update id=727917279 by bot id=8322146210
+TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 804, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 463, in finish_socket_func
+    return ov.getresult()
+           ~~~~~~~~~~~~^^
+OSError: [WinError 121] Превышен таймаут семафора
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 181, in make_request
+    async with session.post(
+               ~~~~~~~~~~~~^
+        url, data=form, timeout=self.timeout if timeout is None else timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as resp:
+    ^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiohttp\client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiohttp\client.py", line 608, in _request
+    await resp.start(conn)
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiohttp\client_reqrep.py", line 976, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiohttp\streams.py", line 640, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 121] Превышен таймаут семафора
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\bot.py", line 47, in start_command
+    await message.answer(welcome_text)
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\UTILS\DArt_Stock_bot\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 188, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-11-06 12:05:43,379 - data_loader - INFO - 🚀 Загрузка данных для GAZP через MOEX...
+2025-11-06 12:05:43,380 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
+2025-11-06 12:05:43,381 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
+2025-11-06 12:05:43,382 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
+2025-11-06 12:05:44,126 - data_loader - INFO - ✅ Candles API: 308 записей
+2025-11-06 12:05:45,920 - data_loader - INFO - ✅ Historical API: 256 записей
+2025-11-06 12:05:45,923 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
+2025-11-06 12:05:45,924 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
+2025-11-06 12:05:45,928 - data_loader - INFO - ✅ MOEX: GAZP = 116.60 RUB
+2025-11-06 12:05:46,074 - aiogram.event - INFO - Update id=727917284 is handled. Duration 2950 ms by bot id=8322146210
+2025-11-06 12:05:54,873 - aiogram.event - INFO - Update id=727917285 is handled. Duration 1 ms by bot id=8322146210
+2025-11-06 12:05:55,586 - data_loader - INFO - Создание признаков БЕЗ утечки...
+2025-11-06 12:05:55,597 - data_loader - INFO - Признаки созданы: 563 записей
+2025-11-06 12:05:55,597 - model_trainer - INFO - Унифицированная подготовка данных...
+2025-11-06 12:05:55,597 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
+2025-11-06 12:05:55,600 - model_trainer - INFO - Данные: 450 train, 113 test
+2025-11-06 12:05:56,274 - model_trainer - INFO - 🎯 Обучение Random Forest...
+2025-11-06 12:05:56,511 - model_trainer - INFO - ✅ Random Forest: RMSE=2.50, MAPE=1.5%
+2025-11-06 12:05:57,134 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
+2025-11-06 12:05:57,143 - model_trainer - INFO - ✅ Ridge: RMSE=2.27, MAPE=1.3%
+2025-11-06 12:05:57,781 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
+2025-11-06 12:05:57,789 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
+2025-11-06 12:05:57,942 - model_trainer - INFO - ✅ ARIMA: RMSE=8.14, MAPE=5.8%
+2025-11-06 12:05:58,571 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
+2025-11-06 12:05:58,573 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
+2025-11-06 12:06:19,848 - model_trainer - INFO - ✅ LSTM: RMSE=3.49, MAPE=2.2%
+2025-11-06 12:06:20,828 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
+2025-11-06 12:06:20,829 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 2.50 MAPE: 1.5% MAE: 1.92
+2025-11-06 12:06:20,830 - model_trainer - INFO -    RIDGE           RMSE: 2.27 MAPE: 1.3% MAE: 1.65
+2025-11-06 12:06:20,832 - model_trainer - INFO -    ARIMA           RMSE: 8.14 MAPE: 5.8% MAE: 7.13
+2025-11-06 12:06:20,833 - model_trainer - INFO -    LSTM            RMSE: 3.49 MAPE: 2.2% MAE: 2.77
+2025-11-06 12:06:20,834 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=2.27)
+2025-11-06 12:06:21,518 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
+2025-11-06 12:06:22,252 - forecast_analyzer - INFO - 📊 Найдено минимумов: 1, максимумов: 1
+2025-11-06 12:06:22,254 - forecast_analyzer - INFO - 🔥 Первый экстремум - максимум, добавляем текущую цену как минимум
+2025-11-06 12:06:22,255 - forecast_analyzer - INFO - 🎯 Найдено 1 торговых пар
+2025-11-06 12:06:22,256 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 7164.97 (+7.2%)
+2025-11-06 12:06:23,349 - utils - INFO - ✅ График успешно создан: 97874 байт
+2025-11-06 12:06:42,389 - __main__ - ERROR - Ошибка отправки результатов: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-11-06 12:06:53,914 - aiogram.event - INFO - Update id=727917286 is handled. Duration 140 ms by bot id=8322146210
+2025-11-06 12:06:59,184 - data_loader - INFO - 🚀 Загрузка данных для SBER через MOEX...
+2025-11-06 12:06:59,185 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
+2025-11-06 12:06:59,186 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
+2025-11-06 12:06:59,186 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
+2025-11-06 12:06:59,831 - data_loader - INFO - ✅ Candles API: 308 записей
+2025-11-06 12:07:02,263 - data_loader - INFO - ✅ Historical API: 256 записей
+2025-11-06 12:07:02,270 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
+2025-11-06 12:07:02,271 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
+2025-11-06 12:07:02,277 - data_loader - INFO - ✅ MOEX: SBER = 294.62 RUB
+2025-11-06 12:07:02,395 - aiogram.event - INFO - Update id=727917287 is handled. Duration 3305 ms by bot id=8322146210
+2025-11-06 12:07:09,829 - aiogram.event - INFO - Update id=727917288 is handled. Duration 0 ms by bot id=8322146210
+2025-11-06 12:07:10,710 - data_loader - INFO - Создание признаков БЕЗ утечки...
+2025-11-06 12:07:10,732 - data_loader - INFO - Признаки созданы: 563 записей
+2025-11-06 12:07:10,733 - model_trainer - INFO - Унифицированная подготовка данных...
+2025-11-06 12:07:10,734 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
+2025-11-06 12:07:10,738 - model_trainer - INFO - Данные: 450 train, 113 test
+2025-11-06 12:07:11,443 - model_trainer - INFO - 🎯 Обучение Random Forest...
+2025-11-06 12:07:11,699 - model_trainer - INFO - ✅ Random Forest: RMSE=4.35, MAPE=1.0%
+2025-11-06 12:07:12,427 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
+2025-11-06 12:07:12,435 - model_trainer - INFO - ✅ Ridge: RMSE=4.10, MAPE=0.9%
+2025-11-06 12:07:13,177 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
+2025-11-06 12:07:13,180 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
+2025-11-06 12:07:13,375 - model_trainer - INFO - ✅ ARIMA: RMSE=19.48, MAPE=5.5%
+2025-11-06 12:07:14,146 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
+2025-11-06 12:07:14,153 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
+2025-11-06 12:07:35,866 - tensorflow - WARNING - 5 out of the last 9 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001E07EDD6C00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-11-06 12:07:36,507 - tensorflow - WARNING - 6 out of the last 12 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001E07EDD6C00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-11-06 12:07:36,533 - model_trainer - INFO - ✅ LSTM: RMSE=5.09, MAPE=1.2%
+2025-11-06 12:07:37,344 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
+2025-11-06 12:07:37,346 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 4.35 MAPE: 1.0% MAE: 2.88
+2025-11-06 12:07:37,347 - model_trainer - INFO -    RIDGE           RMSE: 4.10 MAPE: 0.9% MAE: 2.73
+2025-11-06 12:07:37,348 - model_trainer - INFO -    ARIMA           RMSE: 19.48 MAPE: 5.5% MAE: 16.14
+2025-11-06 12:07:37,349 - model_trainer - INFO -    LSTM            RMSE: 5.09 MAPE: 1.2% MAE: 3.73
+2025-11-06 12:07:37,350 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=4.10)
+2025-11-06 12:07:37,985 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
+2025-11-06 12:07:38,704 - forecast_analyzer - INFO - 📊 Найдено минимумов: 2, максимумов: 1
+2025-11-06 12:07:38,705 - forecast_analyzer - INFO - 🎯 Найдено 1 торговых пар
+2025-11-06 12:07:38,707 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 9681.12 (+1.9%)
+2025-11-06 12:07:39,732 - utils - INFO - ✅ График успешно создан: 96940 байт
+2025-11-06 12:07:58,780 - __main__ - ERROR - Ошибка отправки результатов: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-11-06 12:08:18,470 - __main__ - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-11-06 12:08:18,763 - root - ERROR - Ошибка анализа: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-11-06 12:08:53,733 - aiogram.dispatcher - INFO - Polling stopped
+2025-11-06 12:08:54,004 - aiogram.dispatcher - INFO - Polling stopped for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
+2025-11-06 12:09:20,042 - root - INFO - Бот запущен
+2025-11-06 12:09:20,042 - aiogram.dispatcher - INFO - Start polling
+2025-11-06 12:09:20,354 - aiogram.dispatcher - INFO - Run polling for bot @FinanceDedalBot id=8322146210 - 'FinanceDedal'
+2025-11-06 12:25:40,634 - aiogram.event - INFO - Update id=727917289 is handled. Duration 526 ms by bot id=8322146210
+2025-11-06 12:25:44,611 - data_loader - INFO - 🚀 Загрузка данных для SBER через MOEX...
+2025-11-06 12:25:44,612 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
+2025-11-06 12:25:44,614 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
+2025-11-06 12:25:44,616 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
+2025-11-06 12:25:45,408 - data_loader - INFO - ✅ Candles API: 308 записей
+2025-11-06 12:25:47,169 - data_loader - INFO - ✅ Historical API: 256 записей
+2025-11-06 12:25:47,179 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
+2025-11-06 12:25:47,181 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
+2025-11-06 12:25:47,189 - data_loader - INFO - ✅ MOEX: SBER = 294.00 RUB
+2025-11-06 12:25:47,399 - aiogram.event - INFO - Update id=727917290 is handled. Duration 2915 ms by bot id=8322146210
+2025-11-06 12:25:48,614 - aiogram.event - INFO - Update id=727917291 is handled. Duration 4 ms by bot id=8322146210
+2025-11-06 12:25:49,755 - data_loader - INFO - Создание признаков БЕЗ утечки...
+2025-11-06 12:25:49,778 - data_loader - INFO - Признаки созданы: 563 записей
+2025-11-06 12:25:49,778 - model_trainer - INFO - Унифицированная подготовка данных...
+2025-11-06 12:25:49,779 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
+2025-11-06 12:25:49,781 - model_trainer - INFO - Данные: 450 train, 113 test
+2025-11-06 12:25:50,508 - model_trainer - INFO - 🎯 Обучение Random Forest...
+2025-11-06 12:25:50,753 - model_trainer - INFO - ✅ Random Forest: RMSE=4.35, MAPE=1.0%
+2025-11-06 12:25:51,374 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
+2025-11-06 12:25:51,383 - model_trainer - INFO - ✅ Ridge: RMSE=4.10, MAPE=0.9%
+2025-11-06 12:25:52,032 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
+2025-11-06 12:25:52,034 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
+2025-11-06 12:25:52,214 - model_trainer - INFO - ✅ ARIMA: RMSE=19.49, MAPE=5.5%
+2025-11-06 12:25:52,844 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
+2025-11-06 12:25:52,851 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
+2025-11-06 12:26:14,420 - model_trainer - INFO - ✅ LSTM: RMSE=5.28, MAPE=1.4%
+2025-11-06 12:26:15,238 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
+2025-11-06 12:26:15,240 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 4.35 MAPE: 1.0% MAE: 2.88
+2025-11-06 12:26:15,241 - model_trainer - INFO -    RIDGE           RMSE: 4.10 MAPE: 0.9% MAE: 2.74
+2025-11-06 12:26:15,243 - model_trainer - INFO -    ARIMA           RMSE: 19.49 MAPE: 5.5% MAE: 16.15
+2025-11-06 12:26:15,244 - model_trainer - INFO -    LSTM            RMSE: 5.28 MAPE: 1.4% MAE: 4.10
+2025-11-06 12:26:15,245 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=4.10)
+2025-11-06 12:26:15,957 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
+2025-11-06 12:26:16,676 - forecast_analyzer - INFO - 📊 Найдено минимумов: 2, максимумов: 1
+2025-11-06 12:26:16,678 - forecast_analyzer - INFO - 🎯 Найдено 1 торговых пар
+2025-11-06 12:26:16,679 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 397.89 (+2.0%)
+2025-11-06 12:26:17,955 - utils - INFO - График создан: 20828 байт
+2025-11-06 12:26:17,955 - utils - INFO - График слишком большой, создаем упрощенный вариант
+2025-11-06 12:26:18,282 - utils - INFO - Упрощенный график: 8506 байт
+2025-11-06 12:26:18,759 - utils - INFO - Запрос от пользователя 366778837 залогирован
+2025-11-06 12:26:35,984 - aiogram.event - INFO - Update id=727917292 is handled. Duration 385 ms by bot id=8322146210
+2025-11-06 12:26:41,307 - data_loader - INFO - 🚀 Загрузка данных для NVTK через MOEX...
+2025-11-06 12:26:41,308 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
+2025-11-06 12:26:41,309 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
+2025-11-06 12:26:41,310 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
+2025-11-06 12:26:41,872 - data_loader - INFO - ✅ Candles API: 304 записей
+2025-11-06 12:26:45,929 - data_loader - INFO - ✅ Historical API: 256 записей
+2025-11-06 12:26:45,935 - data_loader - INFO - 🎯 Объединено: 559 уникальных дат
+2025-11-06 12:26:45,937 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
+2025-11-06 12:26:45,941 - data_loader - INFO - ✅ MOEX: NVTK = 1050.00 RUB
+2025-11-06 12:26:46,099 - aiogram.event - INFO - Update id=727917293 is handled. Duration 4895 ms by bot id=8322146210
+2025-11-06 12:26:52,405 - aiogram.event - INFO - Update id=727917294 is handled. Duration 0 ms by bot id=8322146210
+2025-11-06 12:26:53,215 - data_loader - INFO - Создание признаков БЕЗ утечки...
+2025-11-06 12:26:53,225 - data_loader - INFO - Признаки созданы: 559 записей
+2025-11-06 12:26:53,225 - model_trainer - INFO - Унифицированная подготовка данных...
+2025-11-06 12:26:53,226 - model_trainer - INFO - Дата разделения: 2025-07-06 00:00:00
+2025-11-06 12:26:53,228 - model_trainer - INFO - Данные: 447 train, 112 test
+2025-11-06 12:26:53,857 - model_trainer - INFO - 🎯 Обучение Random Forest...
+2025-11-06 12:26:54,095 - model_trainer - INFO - ✅ Random Forest: RMSE=25.05, MAPE=1.7%
+2025-11-06 12:26:54,714 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
+2025-11-06 12:26:54,722 - model_trainer - INFO - ✅ Ridge: RMSE=22.55, MAPE=1.5%
+2025-11-06 12:26:55,340 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
+2025-11-06 12:26:55,343 - model_trainer - INFO - 📊 ARIMA: 447 train, 112 test
+2025-11-06 12:26:55,469 - model_trainer - INFO - ✅ ARIMA: RMSE=109.25, MAPE=7.1%
+2025-11-06 12:26:56,105 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
+2025-11-06 12:26:56,110 - model_trainer - INFO - 📊 LSTM: 417 train, 112 test
+2025-11-06 12:27:17,308 - model_trainer - INFO - ✅ LSTM: RMSE=44.21, MAPE=3.0%
+2025-11-06 12:27:18,124 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
+2025-11-06 12:27:18,124 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 25.05 MAPE: 1.7% MAE: 18.70
+2025-11-06 12:27:18,125 - model_trainer - INFO -    RIDGE           RMSE: 22.55 MAPE: 1.5% MAE: 16.33
+2025-11-06 12:27:18,125 - model_trainer - INFO -    ARIMA           RMSE: 109.25 MAPE: 7.1% MAE: 84.01
+2025-11-06 12:27:18,125 - model_trainer - INFO -    LSTM            RMSE: 44.21 MAPE: 3.0% MAE: 33.96
+2025-11-06 12:27:18,126 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=22.55)
+2025-11-06 12:27:18,750 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
+2025-11-06 12:27:19,437 - forecast_analyzer - INFO - 📊 Найдено минимумов: 1, максимумов: 2
+2025-11-06 12:27:19,439 - forecast_analyzer - INFO - 🔥 Первый экстремум - максимум, добавляем текущую цену как минимум
+2025-11-06 12:27:19,440 - forecast_analyzer - INFO - 🎯 Найдено 2 торговых пар
+2025-11-06 12:27:19,442 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 118.91 (+0.4%)
+2025-11-06 12:27:20,371 - utils - INFO - График создан: 18996 байт
+2025-11-06 12:27:20,873 - utils - INFO - Запрос от пользователя 366778837 залогирован
+2025-11-06 12:27:51,575 - aiogram.event - INFO - Update id=727917295 is handled. Duration 331 ms by bot id=8322146210
+2025-11-06 12:27:56,913 - data_loader - INFO - 🚀 Загрузка данных для SBET через MOEX...
+2025-11-06 12:27:56,915 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
+2025-11-06 12:27:56,916 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
+2025-11-06 12:27:56,917 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
+2025-11-06 12:27:57,433 - data_loader - INFO - ✅ Candles API: 0 записей
+2025-11-06 12:27:57,953 - data_loader - INFO - ✅ Historical API: 0 записей
+2025-11-06 12:27:57,953 - data_loader - ERROR - 💥 Ошибка загрузки: Не удалось загрузить данные для SBET
+2025-11-06 12:27:58,160 - aiogram.event - INFO - Update id=727917296 is handled. Duration 1378 ms by bot id=8322146210
+2025-11-06 12:28:01,992 - aiogram.event - INFO - Update id=727917297 is handled. Duration 108 ms by bot id=8322146210
+2025-11-06 12:28:06,930 - data_loader - INFO - 🚀 Загрузка данных для SBER через MOEX...
+2025-11-06 12:28:06,932 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
+2025-11-06 12:28:06,934 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
+2025-11-06 12:28:06,935 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
+2025-11-06 12:28:09,216 - data_loader - INFO - ✅ Candles API: 308 записей
+2025-11-06 12:28:11,299 - data_loader - INFO - ✅ Historical API: 256 записей
+2025-11-06 12:28:11,306 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
+2025-11-06 12:28:11,307 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
+2025-11-06 12:28:11,312 - data_loader - INFO - ✅ MOEX: SBER = 293.99 RUB
+2025-11-06 12:28:11,576 - aiogram.event - INFO - Update id=727917298 is handled. Duration 4868 ms by bot id=8322146210
+2025-11-06 12:28:19,283 - aiogram.event - INFO - Update id=727917299 is handled. Duration 0 ms by bot id=8322146210
+2025-11-06 12:28:20,146 - data_loader - INFO - Создание признаков БЕЗ утечки...
+2025-11-06 12:28:20,155 - data_loader - INFO - Признаки созданы: 563 записей
+2025-11-06 12:28:20,155 - model_trainer - INFO - Унифицированная подготовка данных...
+2025-11-06 12:28:20,156 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
+2025-11-06 12:28:20,158 - model_trainer - INFO - Данные: 450 train, 113 test
+2025-11-06 12:28:20,865 - model_trainer - INFO - 🎯 Обучение Random Forest...
+2025-11-06 12:28:21,129 - model_trainer - INFO - ✅ Random Forest: RMSE=4.35, MAPE=1.0%
+2025-11-06 12:28:21,763 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
+2025-11-06 12:28:21,767 - model_trainer - INFO - ✅ Ridge: RMSE=4.10, MAPE=0.9%
+2025-11-06 12:28:22,374 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
+2025-11-06 12:28:22,377 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
+2025-11-06 12:28:22,544 - model_trainer - INFO - ✅ ARIMA: RMSE=19.49, MAPE=5.5%
+2025-11-06 12:28:23,197 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
+2025-11-06 12:28:23,204 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
+2025-11-06 12:28:44,408 - tensorflow - WARNING - 5 out of the last 9 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002127EF67740> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-11-06 12:28:45,059 - tensorflow - WARNING - 6 out of the last 12 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002127EF67740> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-11-06 12:28:45,088 - model_trainer - INFO - ✅ LSTM: RMSE=5.74, MAPE=1.5%
+2025-11-06 12:28:46,080 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
+2025-11-06 12:28:46,081 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 4.35 MAPE: 1.0% MAE: 2.88
+2025-11-06 12:28:46,082 - model_trainer - INFO -    RIDGE           RMSE: 4.10 MAPE: 0.9% MAE: 2.74
+2025-11-06 12:28:46,084 - model_trainer - INFO -    ARIMA           RMSE: 19.49 MAPE: 5.5% MAE: 16.15
+2025-11-06 12:28:46,085 - model_trainer - INFO -    LSTM            RMSE: 5.74 MAPE: 1.5% MAE: 4.44
+2025-11-06 12:28:46,086 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=4.10)
+2025-11-06 12:28:46,752 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
+2025-11-06 12:28:47,470 - forecast_analyzer - INFO - 📊 Найдено минимумов: 2, максимумов: 1
+2025-11-06 12:28:47,470 - forecast_analyzer - INFO - 🎯 Найдено 1 торговых пар
+2025-11-06 12:28:47,470 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 995.22 (+2.0%)
+2025-11-06 12:28:48,489 - utils - INFO - График создан: 20831 байт
+2025-11-06 12:28:48,490 - utils - INFO - График слишком большой, создаем упрощенный вариант
+2025-11-06 12:28:48,661 - utils - INFO - Упрощенный график: 8507 байт
+2025-11-06 12:28:49,214 - utils - INFO - Запрос от пользователя 366778837 залогирован
+2025-11-06 12:29:06,388 - aiogram.event - INFO - Update id=727917300 is handled. Duration 281 ms by bot id=8322146210
+2025-11-06 12:29:15,924 - data_loader - INFO - 🚀 Загрузка данных для GAZP через MOEX...
+2025-11-06 12:29:15,925 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
+2025-11-06 12:29:15,926 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
+2025-11-06 12:29:15,927 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
+2025-11-06 12:29:17,775 - data_loader - INFO - ✅ Candles API: 308 записей
+2025-11-06 12:29:19,576 - data_loader - INFO - ✅ Historical API: 256 записей
+2025-11-06 12:29:19,582 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
+2025-11-06 12:29:19,584 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
+2025-11-06 12:29:19,590 - data_loader - INFO - ✅ MOEX: GAZP = 116.52 RUB
+2025-11-06 12:29:19,697 - aiogram.event - INFO - Update id=727917301 is handled. Duration 3900 ms by bot id=8322146210
+2025-11-06 12:29:25,116 - aiogram.event - INFO - Update id=727917302 is handled. Duration 3 ms by bot id=8322146210
+2025-11-06 12:29:26,104 - data_loader - INFO - Создание признаков БЕЗ утечки...
+2025-11-06 12:29:26,112 - data_loader - INFO - Признаки созданы: 563 записей
+2025-11-06 12:29:26,113 - model_trainer - INFO - Унифицированная подготовка данных...
+2025-11-06 12:29:26,113 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
+2025-11-06 12:29:26,115 - model_trainer - INFO - Данные: 450 train, 113 test
+2025-11-06 12:29:26,776 - model_trainer - INFO - 🎯 Обучение Random Forest...
+2025-11-06 12:29:26,999 - model_trainer - INFO - ✅ Random Forest: RMSE=2.50, MAPE=1.5%
+2025-11-06 12:29:27,622 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
+2025-11-06 12:29:27,631 - model_trainer - INFO - ✅ Ridge: RMSE=2.27, MAPE=1.3%
+2025-11-06 12:29:28,248 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
+2025-11-06 12:29:28,251 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
+2025-11-06 12:29:28,387 - model_trainer - INFO - ✅ ARIMA: RMSE=8.14, MAPE=5.8%
+2025-11-06 12:29:29,045 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
+2025-11-06 12:29:29,051 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
+2025-11-06 12:29:50,720 - model_trainer - INFO - ✅ LSTM: RMSE=4.04, MAPE=2.8%
+2025-11-06 12:29:51,575 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
+2025-11-06 12:29:51,576 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 2.50 MAPE: 1.5% MAE: 1.92
+2025-11-06 12:29:51,578 - model_trainer - INFO -    RIDGE           RMSE: 2.27 MAPE: 1.3% MAE: 1.65
+2025-11-06 12:29:51,579 - model_trainer - INFO -    ARIMA           RMSE: 8.14 MAPE: 5.8% MAE: 7.14
+2025-11-06 12:29:51,580 - model_trainer - INFO -    LSTM            RMSE: 4.04 MAPE: 2.8% MAE: 3.44
+2025-11-06 12:29:51,581 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=2.27)
+2025-11-06 12:29:52,201 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
+2025-11-06 12:29:52,921 - forecast_analyzer - INFO - 📊 Найдено минимумов: 1, максимумов: 1
+2025-11-06 12:29:52,922 - forecast_analyzer - INFO - 🔥 Первый экстремум - максимум, добавляем текущую цену как минимум
+2025-11-06 12:29:52,923 - forecast_analyzer - INFO - 🎯 Найдено 1 торговых пар
+2025-11-06 12:29:52,924 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 71634.90 (+7.2%)
+2025-11-06 12:29:53,974 - utils - INFO - График создан: 20982 байт
+2025-11-06 12:29:53,974 - utils - INFO - График слишком большой, создаем упрощенный вариант
+2025-11-06 12:29:54,130 - utils - INFO - Упрощенный график: 8411 байт
+2025-11-06 12:29:54,705 - utils - INFO - Запрос от пользователя 366778837 залогирован
+2025-11-06 12:30:19,742 - aiogram.event - INFO - Update id=727917303 is handled. Duration 306 ms by bot id=8322146210
+2025-11-06 12:30:28,513 - data_loader - INFO - 🚀 Загрузка данных для LKOH через MOEX...
+2025-11-06 12:30:28,514 - data_loader - INFO - 🔄 Гибридная загрузка данных MOEX...
+2025-11-06 12:30:28,515 - data_loader - INFO - 📅 Candles период: 2024-11-06 - 2025-11-06
+2025-11-06 12:30:28,517 - data_loader - INFO - 📅 Historical период: 2023-11-07 - 2024-11-06
+2025-11-06 12:30:29,060 - data_loader - INFO - ✅ Candles API: 308 записей
+2025-11-06 12:30:30,736 - data_loader - INFO - ✅ Historical API: 256 записей
+2025-11-06 12:30:30,743 - data_loader - INFO - 🎯 Объединено: 563 уникальных дат
+2025-11-06 12:30:30,744 - data_loader - INFO - 📅 Период: 2023-11-07 - 2025-11-06
+2025-11-06 12:30:30,750 - data_loader - INFO - ✅ MOEX: LKOH = 5447.50 RUB
+2025-11-06 12:30:30,859 - aiogram.event - INFO - Update id=727917304 is handled. Duration 2526 ms by bot id=8322146210
+2025-11-06 12:30:40,306 - aiogram.event - INFO - Update id=727917305 is handled. Duration 1 ms by bot id=8322146210
+2025-11-06 12:30:41,023 - data_loader - INFO - Создание признаков БЕЗ утечки...
+2025-11-06 12:30:41,033 - data_loader - INFO - Признаки созданы: 563 записей
+2025-11-06 12:30:41,034 - model_trainer - INFO - Унифицированная подготовка данных...
+2025-11-06 12:30:41,034 - model_trainer - INFO - Дата разделения: 2025-07-07 00:00:00
+2025-11-06 12:30:41,037 - model_trainer - INFO - Данные: 450 train, 113 test
+2025-11-06 12:30:41,652 - model_trainer - INFO - 🎯 Обучение Random Forest...
+2025-11-06 12:30:41,877 - model_trainer - INFO - ✅ Random Forest: RMSE=281.72, MAPE=3.2%
+2025-11-06 12:30:42,547 - model_trainer - INFO - 🎯 Обучение Ridge Regression...
+2025-11-06 12:30:42,556 - model_trainer - INFO - ✅ Ridge: RMSE=102.24, MAPE=1.2%
+2025-11-06 12:30:43,204 - model_trainer - INFO - 🎯 Обучение ARIMA с унифицированной валидацией...
+2025-11-06 12:30:43,207 - model_trainer - INFO - 📊 ARIMA: 450 train, 113 test
+2025-11-06 12:30:43,362 - model_trainer - INFO - ✅ ARIMA: RMSE=288.40, MAPE=3.7%
+2025-11-06 12:30:44,055 - model_trainer - INFO - 🎯 Обучение LSTM с унифицированной валидацией...
+2025-11-06 12:30:44,060 - model_trainer - INFO - 📊 LSTM: 420 train, 113 test
+2025-11-06 12:31:05,540 - model_trainer - INFO - ✅ LSTM: RMSE=215.53, MAPE=2.7%
+2025-11-06 12:31:06,517 - model_trainer - INFO - 📊 МЕТРИКИ МОДЕЛЕЙ:
+2025-11-06 12:31:06,518 - model_trainer - INFO -    RANDOM_FOREST   RMSE: 281.72 MAPE: 3.2% MAE: 185.67
+2025-11-06 12:31:06,518 - model_trainer - INFO -    RIDGE           RMSE: 102.24 MAPE: 1.2% MAE: 74.51
+2025-11-06 12:31:06,519 - model_trainer - INFO -    ARIMA           RMSE: 288.40 MAPE: 3.7% MAE: 223.59
+2025-11-06 12:31:06,519 - model_trainer - INFO -    LSTM            RMSE: 215.53 MAPE: 2.7% MAE: 158.61
+2025-11-06 12:31:06,520 - model_trainer - INFO - 🏆 ЛУЧШАЯ МОДЕЛЬ: RIDGE (RMSE=102.24)
+2025-11-06 12:31:07,236 - model_trainer - INFO - 🎯 Генерация прогноза моделью ridge на 30 дней
+2025-11-06 12:31:07,925 - forecast_analyzer - INFO - 📊 Найдено минимумов: 0, максимумов: 1
+2025-11-06 12:31:07,927 - forecast_analyzer - INFO - 🔥 Первый экстремум - максимум, добавляем текущую цену как минимум
+2025-11-06 12:31:07,928 - forecast_analyzer - INFO - 🎯 Найдено 1 торговых пар
+2025-11-06 12:31:07,930 - forecast_analyzer - INFO - 💰 Итоговая прибыль: 215348.82 (+10.8%)
+2025-11-06 12:31:08,874 - utils - INFO - График создан: 20613 байт
+2025-11-06 12:31:08,875 - utils - INFO - График слишком большой, создаем упрощенный вариант
+2025-11-06 12:31:09,044 - utils - INFO - Упрощенный график: 8530 байт
+2025-11-06 12:31:09,378 - utils - INFO - Запрос от пользователя 366778837 залогирован
